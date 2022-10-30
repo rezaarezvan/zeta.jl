@@ -16,5 +16,5 @@ end
 
 z = 2+5im
 result, points = ζ(z;point_ar = true)
-plot((points),color=:blue,width=3, title="Zeta function spiral",framestyle= :origin,label="$z")
-scatter!((points),color=:red, label="Points")
+plot((points),color=:red,width=3, title="Zeta function spiral",framestyle= :origin,label="$z")
+scatter!((points),color=:black, label="Points")
